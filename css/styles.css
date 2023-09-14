@@ -84,8 +84,6 @@ header,footer
 {
  font-family: var(--alternative-font);
  color: var(--light-font-solid);
- background-color: var(--dark-bg-solid);
- padding: var(--spacing-36); /* solo para header? */
 }
 
 img{
@@ -100,15 +98,13 @@ img{
  margin: 0 auto;
 }
 
-/* clases del <header> */
+/* header */
 
-/*  ya esta arriba 
-header
+.header
 {
  background-color: var(--dark-bg-solid);
  padding: var(--spacing-36);
 }
-*/
 
 .navbar{
  display: flex;
@@ -125,6 +121,11 @@ header
     align-items: center;
     gap: var(--spacing-20);
 }
+
+/*
+.navbar__item{
+}
+*/
 
 .navbar__link{
     font-size: var(--font-medium); 
@@ -346,6 +347,19 @@ font-weight: 500;
     font-weight: 700;
 }
 
+
+/* footer */
+.footer{
+  background-color: var(--dark-bg-solid);
+  padding: var(--spacing-36);   
+}
+
+.footer__copy{
+    margin-top: var(--spacing-36);
+    text-align: center;
+}
+
+/* animations */
 @keyframes fade{
      0%{ opacity: 0; }
    100%{ opacity: 1; } 
