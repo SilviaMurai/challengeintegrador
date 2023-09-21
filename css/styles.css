@@ -253,7 +253,7 @@ img{
     font-family: var(--alternative-font);
     font-size: var(--font-display);
     font-weight: 300;
-    border-bottom: 2px solid var(--primary-solid);
+    border-bottom: 3px solid var(--primary-solid);
     padding-bottom: var(--spacing-20);
 }
 
@@ -295,6 +295,7 @@ img{
 .card-item__cover{
  display: flex;
  position: relative;
+ justify-content: flex-end;
 }
 
 .card-item__tag{
