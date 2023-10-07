@@ -5,6 +5,7 @@
 
 @import url("header-footer.css");
 /*@import url("slider.css");*/
+@import url("admin.css");
 
 :root {
   /* palette */
@@ -37,8 +38,8 @@
   --font-large: 3em;     
   --font-display: 2.4em;
   --font-medium: 1.8em;
-  --font-small: 1.6em;
-  --font-xsmall: 1.4em;
+  --font-small: 1.6em;   /* 1.4em; */
+  --font-xsmall: 1.4em;  /* 1.0em; */
 
   /* spacings */
   --spacing-128: 12.8rem;
@@ -87,3 +88,20 @@ p {
 img {
   width: 100%;
 }
+
+input{
+  border-radius: 8%;
+  border-color: var(--dark-bg-solid);
+  padding: var(--spacing-4);
+  font-size: var(--font-xsmall);
+  color: var(--light-font-solid);
+}
+
+/* clases generales ? ********************************************************************* */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* **************************************************************************************** */
