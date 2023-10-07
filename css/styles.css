@@ -89,14 +89,6 @@ img {
   width: 100%;
 }
 
-input{
-  border-radius: 8%;
-  border-color: var(--dark-bg-solid);
-  padding: var(--spacing-4);
-  font-size: var(--font-xsmall);
-  color: var(--light-font-solid);
-}
-
 /* clases generales ? ********************************************************************* */
 
 .container {
