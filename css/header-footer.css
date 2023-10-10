@@ -1,10 +1,10 @@
 /* clases *************************************************************************** */
-/* en styles.css
-.container {
+/* o en styles.css container clase general como dijo en video mission? */
+.hf_container {
   max-width: 1200px;
   margin: 0 auto;
 }
-*/
+
 /* header ***************************************************************/
 
 .header {
