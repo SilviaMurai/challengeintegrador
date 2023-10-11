@@ -3,7 +3,7 @@
 @import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css");
 @import url("https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css");
 
-@import url("../css/header-footer.css");
+@import url("../css/header-footer.css"); 
 /*@import url("slider.css");*/
 @import url("../css/admin.css"); 
 
