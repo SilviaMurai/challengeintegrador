@@ -92,12 +92,13 @@ img{
     width: 100%;
 }
 
+/*
 header{
     background-color: var(--dark-bg-solid);
     padding: var(--spacing-36);
 }
 
-/*
+
 .navbar{
     display: flex;
     justify-content: space-between;
