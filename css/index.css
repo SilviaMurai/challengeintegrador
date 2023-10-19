@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400&family=Qwitcher+Grypen:wght@400;700&family=Raleway:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&display=swap");
 
 /*
 :root{/*aca van las variables*/
@@ -299,10 +299,12 @@ header{
     border: 0;
   }
 
+ /* 
 .item__cart{
     display:
     justify-content:
 }
+*/
 
 .item__promo{
     font-size: var(--font-xsmall);
