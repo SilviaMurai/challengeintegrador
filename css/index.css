@@ -209,7 +209,7 @@ header{
     display: inline-block;
     font-family: var(--alternative-font);
     font-size: var(--font-medium);
-    background-color: var(--light-gb-solid);
+    background-color: var(--light-bg-solid);
     padding: var(--spacing-12) var(--spacing-68);
     border-radius: 50px;
     font-weight:500;  
