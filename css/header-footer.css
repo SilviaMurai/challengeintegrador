@@ -7,7 +7,7 @@
 
 /* header ***************************************************************/
 
-.header .page-header{
+.header{
   background-color: var(--dark-bg-solid);
   padding: var(--spacing-36);
 }
