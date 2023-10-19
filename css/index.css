@@ -166,7 +166,7 @@ header{
 
 /*HERO BANNER*/
 .hero{
-    background-image: url(../img/funkos-banner.webp);
+    background-image: url(../images/funkos-banner.webp);
     background-position: top;
     padding: var(--spacing-128);
     background-size: cover;
