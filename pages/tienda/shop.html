@@ -6,7 +6,8 @@
     <title>Shop | Funkoshop</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/styleshop.css"/>
+    <link rel="stylesheet" href="/css/header-footer.css">
   </head>
   <body>
     
@@ -21,20 +22,8 @@
         </picture>
         <ul class="navbar__header">
           <li class="navbar__item with-submenu">
-            <a class="navbar__link with-icon" href="../tienda/shop.html">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
-            <ul class="submenu">
-              <li class="submenu__item">
-                <a href="" class="submenu__link">Funkos</a>
-              </li>
-              <li class="submenu__item">
-                <a href="" class="submenu__link">Remeras</a>
-              </li>
-              <li class="submenu__item">
-                <a href="" class="submenu__link">LLaveros</a>
-              </li>
-            </ul>
-          </li>
-          <li class="navbar__item">
+            <a class="navbar__link with-icon" href="/index.html" target="_blank">HOME<iconify-icon ></a>
+                        <li class="navbar__item">
             <a class="navbar__link" href="../admin/contact.html">CONTACTO</a></li>
           <li class="navbar__item">
             <a class="navbar__link" href="../admin/login.html">LOGIN</a></li>
@@ -48,7 +37,164 @@
    </header>
 
     <main>
-      <h1>SHOP</h1>
+     
+    <form action="">
+      <label for="buscar">buscar</label><br>
+     <input type="text" id="buscar" name="buscar"><br>
+     <label for="ordenar">ordenar por:</label><br>
+     <select name="ordenar" id="ordenar">
+          <option value="mayor a menor">mayor a menor precio</option>
+          <option value="menor a mayor">menor a mayor precio</option>
+          <option value="harry potter">harry potter</option>
+          <option value="star wars">star wars</option>
+          <option value="pokemon">pokemon</option>
+     </select>
+     <br>
+   <label for="precio">precio</label>
+   <select name="" id="">
+          <option value="min">1000-3000</option>
+          <option value="med">3001-6000</option>
+          <option value="mayor">6001- mas</option>
+      </select>
+  <p>FILTRAR</p>
+  <input type="checkbox" id="nuevos" name="nuevos">
+  <label for="nuevos">nuevos</label><br>
+  <input type="checkbox" id="ofertas" name="ofertas">
+  <label for="ofertas">ofertas</label><br>
+  <input type="checkbox" id="edlimt" name="edlimit">
+  <label for="edlimt">edicion limitad</label><br>
+  <input type="checkbox" id="fav" name="favoritos">
+  <label for="fav">favoritos</label><br>
+  </form>
+<!-- aqui comienza las cajas del imagenes del shop  -->
+
+<section class="grid-productos">
+     <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/harry-potter/luna-1.webp" alt="luna" class="imagenshop" id="imagenshop1">
+      <img src="/images/harry-potter/luna-box.webp" alt="lunaencaja" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+      <h3>HARRY POTTER</h3>
+      <h2>LUNA LOVEGOOD LION MASK</h2>
+      <p>$ 1799,99 </p>
+      <p> 3 cuotas sin interes </p>
+  </div>
+
+  </div>
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/star-wars/trooper-1.webp" alt="tropper" class="imagenshop" id="imagenshop1">
+      <img src="/images/star-wars/trooper-box.webp" alt="troppercaja" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+          <h3>star wars</h3>
+          <h2>stormtrooper light saber</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div>
+  </div>
+
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/pokemon/pidgeotto-1.webp" alt="pidgeotto" class="imagenshop" id="imagenshop1">
+      <img src="/images/pokemon/pidgeotto-box.webp" alt="pidgeottocaja" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+          <h3>pokemon</h3>
+          <h2>pidgeotto</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div>
+  </div>
+
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/harry-potter/harry-1.webp" alt="harry-potter" class="imagenshop" id="imagenshop1">
+      <img src="/images/harry-potter/harry-box.webp" alt="harrycaja" class="imagenshop" id="imagenshop2">
+     </div>
+      <div class="items-description">
+          <h3>HARRY POTTER</h3>
+          <h2>HARRY POTTER</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div></div>
+
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/pokemon/pikachu-1.webp" alt="pikachu" class="imagenshop" id="imagenshop1">
+      <img src="/images/pokemon/pikachu-box.webp" alt="pikachocaja" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+          <h3>pokemon</h3>
+          <h2>pikachu</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div>
+  </div>
+
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/star-wars/bobbafeth-1.webp" alt="bobbafeth" class="imagenshop" id="imagenshop1">
+      <img src="/images/star-wars/bobbafeth-box.webp" alt="bobbafethcaja" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+          <h3>star wars</h3>
+          <h2>bobbafeth</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div>
+  </div>
+
+  <div class="productos-items">
+      <p>nuevo</p>
+      <div class="containershopimg">
+      <img src="/images/harry-potter/snape-patronus-1.webp" alt="snape-patronus" class="imagenshop" id="imagenshop1">
+      <img src="/images/harry-potter/snape-patronus-box.webp" alt="snape-patronus-box" class="imagenshop" id="imagenshop2">
+    </div>
+      <div class="items-description">
+          <h3>HARRY POTTER</h3>
+          <h2>SNAPE PATRONUS</h2>
+          <p>$ 1799,99 </p>
+          <p> 3 cuotas sin interes </p>
+      </div>
+      </div>
+
+      <div class="productos-items">
+          <p>nuevo</p>
+          <div class="containershopimg">
+          <img src="/images/star-wars/luke-1.webp" alt="luke" class="imagenshop" id="imagenshop1">
+          <img src="/images/star-wars/luke-box.webp" alt="lukebox" class="imagenshop" id="imagenshop2">
+        </div>
+          <div class="items-description">
+              <h3>star wars</h3>
+              <h2>luke</h2>
+              <p>$ 1799,99 </p>
+              <p> 3 cuotas sin interes </p>
+          </div>
+      </div>
+
+      <div class="productos-items">
+          <p>nuevo</p>
+          <div class="containershopimg">
+          <img src="/images/pokemon/vulpix-1.webp" alt="vulpix" class="imagenshop" id="imagenshop1">
+          <img src="/images/pokemon/vulpix-box.webp" alt="vulpixcaja" class="imagenshop" id="imagenshop2">
+        </div>
+          <div class="items-description">
+              <h3>vulpix</h3>
+              <h2>pidgeotto</h2>
+              <p>$ 1799,99 </p>
+              <p> 3 cuotas sin interes </p>
+          </div>
+      </div>
+</div>
+</section>
     </main>
 
     <footer class="footer">
