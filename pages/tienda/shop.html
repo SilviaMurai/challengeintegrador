@@ -36,36 +36,50 @@
       </nav>
    </header>
 
-    <main>
-     
-    <form action="">
-      <label for="buscar">buscar</label><br>
-     <input type="text" id="buscar" name="buscar"><br>
-     <label for="ordenar">ordenar por:</label><br>
-     <select name="ordenar" id="ordenar">
-          <option value="mayor a menor">mayor a menor precio</option>
-          <option value="menor a mayor">menor a mayor precio</option>
-          <option value="harry potter">harry potter</option>
-          <option value="star wars">star wars</option>
-          <option value="pokemon">pokemon</option>
-     </select>
-     <br>
-   <label for="precio">precio</label>
-   <select name="" id="">
-          <option value="min">1000-3000</option>
-          <option value="med">3001-6000</option>
-          <option value="mayor">6001- mas</option>
-      </select>
-  <p>FILTRAR</p>
-  <input type="checkbox" id="nuevos" name="nuevos">
-  <label for="nuevos">nuevos</label><br>
-  <input type="checkbox" id="ofertas" name="ofertas">
-  <label for="ofertas">ofertas</label><br>
-  <input type="checkbox" id="edlimt" name="edlimit">
-  <label for="edlimt">edicion limitad</label><br>
-  <input type="checkbox" id="fav" name="favoritos">
-  <label for="fav">favoritos</label><br>
-  </form>
+   <main id= shop class= container>
+    <aside class="shop__filters filters">
+        <div class="filters__search">
+            <label  class="filters__title" for="search">BUSCAR</label>
+            <input type="text" name="search" id="search" placeholder="item o categoría">
+        </div>
+        <div class="filters__order">
+            <label  class="filters__title" for="orderby">ORDERNAR POR</label>
+            <select name="orderby" id="orderby">
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+                <option value="desc">Mayor precio</option>
+                <option value="asc">Menor precio</option>
+            </select>
+        </div>
+        <div class="filters__price">
+            <span class="filters__title" >PRECIO</span>
+            <div>
+                <label for="min">MIN</label>
+                <input type="text" name="min" id="min" placeholder="0">
+                <label for="max">- MAX</label>
+                <input type="text" name="max" id="max" placeholder="0">
+            </div>
+        </div>
+        <div class="filters__checks">
+            <span class="filters__title" for="filter">FILTRAR</span>
+            <div>
+                <input type="checkbox" name="filter" id="news" value="news">
+                <label for="">NUEVOS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="filter" id="offers" value="offers">
+                <label for=" ">OFERTAS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="filter" id="specials" value="specials">
+                <label for=" ">EDICIÓN ESPECIAL</label>
+            </div>
+            <div>
+                <input type="checkbox" name="filter" id="favs" value="favs">
+                <label for=" ">FAVORITOS</label>
+            </div>
+        </div>
+    </aside>
 <!-- aqui comienza las cajas del imagenes del shop  -->
 
 <section class="grid-productos">
@@ -194,7 +208,19 @@
           </div>
       </div>
 </div>
+ <!-- inicio paginacion-->
+ <div class="pagination">
+  <a class="pagination__link" href="#" ><</a>
+  <a class="pagination__link pagination__link--selected" href="#" >1</a>
+  <a class="pagination__link" href="#" >2</a>
+  <a class="pagination__link" href="#" >3</a>
+  <a class="pagination__link" href="#" >4</a>
+  <a class="pagination__link" href="#" >5</a>
+  <a class="pagination__link" href="#" >></a>
+</div>
+<!--fin paginacion-->
 </section>
+
     </main>
 
     <footer class="footer">
@@ -209,6 +235,7 @@
           <li class="navbar__item">
             <a class="navbar__link" href="../admin/contact.html">CONTACTO</a></li>
         </ul>
+
         <picture><img src="/images/branding/isotype.svg" alt="" /></picture>
       </nav>
       <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>

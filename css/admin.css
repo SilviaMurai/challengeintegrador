@@ -21,7 +21,7 @@
   min-width: 20px;
 }
 
-.busqueda input {
+.busqueda .input {
   border-radius: 8%;
   border-color: var(--dark-bg-solid);
   padding: var(--spacing-4);
